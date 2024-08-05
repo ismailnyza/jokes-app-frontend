@@ -1,0 +1,35 @@
+/* styles/Header.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+header {
+    background-color: #1db954; /* Spotify Green */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+nav a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: black;
+}

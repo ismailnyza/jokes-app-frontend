@@ -1,0 +1,58 @@
+/* styles/globals.css */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    font-family: "Poppins", sans-serif;
+    color: #191414; /* Spotify black */
+    background-color: #f7f7f7; /* Light gray */
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #1db954; /* Spotify green */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 1rem;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h2 {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #191414; /* Spotify black */
+    margin-bottom: 1rem;
+}
+
+nav a {
+    margin-right: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: color 0.5s;
+}
+
+nav a:hover {
+    color: black;
+}
+
+.main-content {
+    padding: 2rem 5%;
+}
+
+.error {
+    color: red;
+}
+
+.joke-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+}

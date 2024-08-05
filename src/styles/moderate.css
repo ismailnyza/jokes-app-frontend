@@ -1,0 +1,80 @@
+/* styles/moderate.css */
+.main-content {
+    padding: 2rem 5%;
+    width: 85%;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+}
+
+th,
+td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+.action-buttons {
+    display: flex;
+    justify-content: space-around;
+}
+
+.action-buttons button {
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+
+.action-buttons .approve {
+    color: green;
+}
+
+.action-buttons .delete {
+    color: red;
+}
+
+.confirmation-dialog {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.confirmation-dialog input {
+    width: 100%;
+    padding: 0.5rem;
+    margin-top: 1rem;
+}
+
+.confirmation-dialog-buttons {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.confirmation-dialog-buttons button {
+    padding: 0.5rem 1rem;
+}
+
+.approved {
+    background-color: #d4edda;
+}
+
+.rejected {
+    text-decoration: line-through;
+    color: #dc3545;
+}

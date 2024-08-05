@@ -1,0 +1,25 @@
+/* styles/home.css */
+.main-content {
+    padding: 2rem 5%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.error {
+    color: red;
+}
+
+.joke-card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    width: 100%;
+    text-align: left;
+    font-size: 1.25rem;
+    word-break: break-word;
+}
